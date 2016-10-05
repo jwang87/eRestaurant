@@ -3,7 +3,52 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "eRestaurantWeb", "eRestaurantWeb\", "{B9B4F98E-7931-48AD-AD52-83EA54DB68CF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{8022a407-ef97-4d94-a242-031e5eb80fa1}|eRestaurantSystem.dll;{00DB9263-35D0-46BC-BD4C-E8117B8837EB}|eRestaurantSystem.Data.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59003"
+		Debug.AspNetCompiler.PhysicalPath = "eRestaurantWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59003\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59003"
+		Release.AspNetCompiler.PhysicalPath = "eRestaurantWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59003\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59003"
+		SlnRelativePath = "eRestaurantWeb\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eRestaurantSystem", "eRestaurantSystem\eRestaurantSystem.csproj", "{8022A407-EF97-4D94-A242-031E5EB80FA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eRestaurantSystem.Data", "eRestaurantSystem.Data\eRestaurantSystem.Data.csproj", "{00DB9263-35D0-46BC-BD4C-E8117B8837EB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9B4F98E-7931-48AD-AD52-83EA54DB68CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B4F98E-7931-48AD-AD52-83EA54DB68CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B4F98E-7931-48AD-AD52-83EA54DB68CF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B4F98E-7931-48AD-AD52-83EA54DB68CF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8022A407-EF97-4D94-A242-031E5EB80FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8022A407-EF97-4D94-A242-031E5EB80FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8022A407-EF97-4D94-A242-031E5EB80FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8022A407-EF97-4D94-A242-031E5EB80FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00DB9263-35D0-46BC-BD4C-E8117B8837EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DB9263-35D0-46BC-BD4C-E8117B8837EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DB9263-35D0-46BC-BD4C-E8117B8837EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DB9263-35D0-46BC-BD4C-E8117B8837EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
