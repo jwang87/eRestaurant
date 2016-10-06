@@ -19,7 +19,6 @@
             </asp:Repeater>
         </ItemTemplate>
     </asp:Repeater>
-
     <asp:Repeater ID="Repeater1" runat="server" DataSourceID="MenuCateFoodItemODS">
         <ItemTemplate>
             <h3><%# Eval("MenuCategoryDescription") %></h3>
@@ -57,7 +56,6 @@
             </asp:ListView>
         </ItemTemplate>
     </asp:Repeater>
-
     <asp:ObjectDataSource ID="MenuCateFoodItemODS" runat="server" OldValuesParameterFormatString="original_{0}" SelectMethod="MenuCategoryFoodItemDTO_Get" TypeName="eRestaurantSystem.BLL.ItemController"></asp:ObjectDataSource>
 </asp:Content>
 
