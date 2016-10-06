@@ -31,8 +31,7 @@ namespace eRestaurantSystem.BLL
                                    ItemID = food.ItemID,
                                    FoodDescription = food.Description,
                                    CurrentPrice = food.CurrentPrice,
-                                   //TimesServed = food.BillItems.Count()
-                                   TimesServed =10
+                                   TimesServed = food.BillItems.Count()
                                }).ToList();
 
                 return results;
@@ -55,7 +54,7 @@ namespace eRestaurantSystem.BLL
                                                     ItemID = x.ItemID,
                                                     FoodDescription = x.Description,
                                                     CurrentPrice = x.CurrentPrice,
-                                                    TimesServed = 10
+                                                    TimesServed = x.BillItems.Count()
                                                 }).ToList()
                                });
 

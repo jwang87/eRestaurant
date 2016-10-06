@@ -43,8 +43,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DTOs\MenuCategoryFoodItemsDTO.cs" />
+    <Compile Include="Entities\Bill.cs" />
+    <Compile Include="Entities\BillItem.cs" />
     <Compile Include="Entities\Item.cs" />
     <Compile Include="Entities\MenuCategory.cs" />
+    <Compile Include="Entities\Recipe.cs" />
+    <Compile Include="Entities\RecipeIngredient.cs" />
     <Compile Include="Entities\Reservation.cs" />
     <Compile Include="Entities\SpecialEvent.cs" />
     <Compile Include="POCOs\FoodItems.cs" />

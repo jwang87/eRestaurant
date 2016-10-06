@@ -21,8 +21,8 @@ namespace eRestaurantSystem.Data.Entities
         public DateTime ReservationDate { get; set; }
         public int NumberInParty { get; set; }
         public string ContactPhone { get; set; }
-        public char ReservationStatus { get; set; }
-        public char EventCode { get; set; }
+        public string ReservationStatus { get; set; }
+        public string EventCode { get; set; }
 
         public virtual SpecialEvent SpecialEvent { get; set; }
     }
