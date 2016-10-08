@@ -25,5 +25,6 @@ namespace eRestaurantSystem.Data.Entities
         public string EventCode { get; set; }
 
         public virtual SpecialEvent SpecialEvent { get; set; }
+        public virtual ICollection<ReservationTable> ReservationTables { get; set; }
     }
 }

@@ -20,11 +20,12 @@ namespace eRestaurantSystem.Data.Entities
         public decimal CurrentPrice { get; set; }
         public decimal CurrentCost { get; set; }
         public bool Active { get; set; }
-        public int Calories { get; set; }
+        public int? Calories { get; set; }
         public string Comment { get; set; }
         public int MenuCategoryID { get; set; }
 
         public virtual MenuCategory MenuCategory { get; set; }
         public virtual ICollection<BillItem> BillItems { get; set; }
+        public virtual ICollection<Recipe> Recipes { get; set; }
     }
 }

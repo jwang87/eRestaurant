@@ -26,5 +26,6 @@ namespace eRestaurantSystem.Data.Entities
         public int QtyServed { get; set; }
 
         public virtual Item Item { get; set; }
+        public virtual Bill Bill { get; set; }
     }
 }
