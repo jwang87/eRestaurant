@@ -14,7 +14,9 @@ namespace eRestaurantSystem.Data.Entities
     [Table("ReservationTables")]
     public class ReservationTable
     {
+        [Key, Column(Order = 0)]
         public int TableID { get; set; }
+        [Key, Column(Order = 1)]
         public int ReservationID { get; set; }
 
         public virtual Table Table { get; set; }
