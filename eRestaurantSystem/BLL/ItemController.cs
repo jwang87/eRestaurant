@@ -61,5 +61,27 @@ namespace eRestaurantSystem.BLL
                 return results.ToList();
             }
         }
+
+        //    [DataObjectMethod(DataObjectMethodType.Select, false)]
+        //    public List<CategoryMenuItems> MenuCategoryFoodItemDTO_Get()
+        //    {
+        //        using (var context = new eRestaurantContext())
+        //        {
+        //            var results = (from cat in context.Items
+        //                           orderby cat.MenuCategory.Description, cat.Description
+        //                           select new CategoryMenuItems
+        //                           {
+        //                               MenuCategoryDescription = tempdataset.Key.Description,
+        //                               FoodItems = (from x in tempdataset
+        //                                            select new FoodItems
+        //                                            {
+
+        //                                            }).ToList()
+        //                           });
+
+        //            return results.ToList();
+        //        }
+
+        //    }
     }
 }
